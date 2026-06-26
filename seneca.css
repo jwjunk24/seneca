@@ -54,37 +54,26 @@ main {
 
 /* ── Index ── */
 
-.archive-year {
+.archive-topic {
   font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ink-faint);
-  margin: 2.5rem 0 1rem;
+  margin: 3rem 0 1rem;
 }
 
-.archive-year:first-child { margin-top: 0; }
+.archive-topic:first-child { margin-top: 0; }
 
 .post-list {
   list-style: none;
 }
 
 .post-list li {
-  display: flex;
-  align-items: baseline;
-  gap: 1.25rem;
   padding: 0.6rem 0;
   border-bottom: 1px solid var(--rule);
 }
 
 .post-list li:first-child { border-top: 1px solid var(--rule); }
-
-.post-date {
-  font-size: 0.8rem;
-  color: var(--ink-faint);
-  white-space: nowrap;
-  font-variant-numeric: tabular-nums;
-  min-width: 5.5rem;
-}
 
 .post-link {
   color: var(--ink);
